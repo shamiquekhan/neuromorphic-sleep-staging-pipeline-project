@@ -187,6 +187,3 @@ Important modules:
 
 This workspace is currently provided as a local working tree rather than a git checkout, so I can update files here but cannot push them to GitHub from this environment.
 
-## License
-
-Add a license file before publishing externally if you plan to distribute the project.
