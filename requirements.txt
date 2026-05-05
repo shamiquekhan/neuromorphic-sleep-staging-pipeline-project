@@ -1,0 +1,35 @@
+# Core ML
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Signal processing
+scipy>=1.12.0
+numpy>=1.26.0
+
+# EDF loading (Sleep-EDF)
+mne>=1.6.0
+
+# ML metrics & utilities
+scikit-learn>=1.4.0
+
+# Dataframe utilities
+pandas>=2.0.0
+
+# ONNX export
+onnx>=1.16.0
+
+# TFLite conversion (Path A -- recommended, bypasses ONNX completely)
+# pip install ai-edge-torch
+# Requires: Python 3.9-3.11, tensorflow>=2.17
+
+# TFLite conversion (Path B -- fallback via static ONNX)
+# pip install onnx2tf tensorflow onnx-graphsurgeon sng4onnx
+
+# Progress / CLI
+tqdm>=4.66.0
+
+# Optional: faster data loading on Linux
+# psutil>=5.9.0
+
+# Development / testing
+pytest>=8.0.0

@@ -1,0 +1,14 @@
+.venv/
+.venv-1/
+.venv-convert/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.vscode/
+artifacts/
+data/raw/
+data/cache/
+src/sleep_staging.egg-info/

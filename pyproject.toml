@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sleep-staging"
+version = "0.1.0"
+description = "Neuromorphic sleep stage scoring scaffold"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "pandas>=2.0",
+  "scikit-learn>=1.3",
+  "torch>=2.3",
+  "mne>=1.7",
+  "onnx>=1.16",
+  "onnxscript>=0.2",
+  "matplotlib>=3.8",
+  "seaborn>=0.13",
+]
+
+[project.scripts]
+sleep-staging = "sleep_staging.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
