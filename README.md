@@ -183,7 +183,3 @@ Important modules:
 - Use the same manifest for training, distillation, and evaluation.
 - Save the generated `artifacts/` directory if you want to compare models across runs.
 
-## Repository Status
-
-This workspace is currently provided as a local working tree rather than a git checkout, so I can update files here but cannot push them to GitHub from this environment.
-
